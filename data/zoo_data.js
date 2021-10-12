@@ -11,37 +11,37 @@ const olaId = 'fdb2543b-5662-46a7-badc-93d960fdc0a8';
 const burlId = '0e7b460e-acf4-4e17-bcb3-ee472265db83';
 
 module.exports = {
-  species: [
-    {
+  species: [ // array de objetos
+    { // objeto lions temos um Array com quatro objeto especificando nome, sexo e era
       id: lionId,
       name: 'lions',
       popularity: 4,
       location: 'NE',
-      availability: ['Tuesday', 'Thursday', 'Saturday', 'Sunday'],
+      availability: ['Tuesday', 'Thursday', 'Saturday', 'Sunday'], // dias disponívies para visitaçoes
       residents: [
         {
           name: 'Zena',
-          sex: 'female',
-          age: 12,
+          sex: 'female', // fêmea
+          age: 12, // era
         },
         {
           name: 'Maxwell',
-          sex: 'male',
-          age: 15,
+          sex: 'male', // macho
+          age: 15, // era
         },
         {
           name: 'Faustino',
-          sex: 'male',
+          sex: 'male', // macho
           age: 7,
         },
         {
           name: 'Dee',
-          sex: 'female',
-          age: 14,
+          sex: 'female', // fêmea
+          age: 14, // era
         },
       ],
     },
-    {
+    { //  objeto tigers temos um Array com dois objeto especificando nome, sexo e era
       id: tigersId,
       name: 'tigers',
       popularity: 5,
@@ -50,18 +50,18 @@ module.exports = {
       residents: [
         {
           name: 'Shu',
-          sex: 'female',
-          age: 19,
+          sex: 'female', // fêmea
+          age: 19, // era
         },
         {
           name: 'Esther',
-          sex: 'female',
-          age: 17,
+          sex: 'female', // fêmea
+          age: 17, // era
         },
       ],
     },
     {
-      id: bearsId,
+      id: bearsId, // objeto bears(ursas) tem um Array com três objetos especificando nome, sexo e era
       name: 'bears',
       popularity: 5,
       location: 'NW',
@@ -69,23 +69,23 @@ module.exports = {
       residents: [
         {
           name: 'Hiram',
-          sex: 'male',
-          age: 4,
+          sex: 'male', // macho
+          age: 4, // era
         },
         {
           name: 'Edwardo',
-          sex: 'male',
-          age: 4,
+          sex: 'male', // macho
+          age: 4, // era
         },
         {
           name: 'Milan',
-          sex: 'male',
-          age: 4,
+          sex: 'male', // macho
+          age: 4, // era
         },
       ],
     },
     {
-      id: 'ef3778eb-2844-4c7c-b66c-f432073e1c6b',
+      id: 'ef3778eb-2844-4c7c-b66c-f432073e1c6b', // objeto penguins tem um Array com quatro objetos especificando nome, sexo e era
       name: 'penguins',
       popularity: 4,
       location: 'SE',
@@ -93,28 +93,28 @@ module.exports = {
       residents: [
         {
           name: 'Joe',
-          sex: 'male',
-          age: 10,
+          sex: 'male', // macho
+          age: 10, // era
         },
         {
           name: 'Tad',
-          sex: 'male',
-          age: 12,
+          sex: 'male', // macho
+          age: 12, // era
         },
         {
           name: 'Keri',
-          sex: 'female',
-          age: 2,
+          sex: 'female', // fêmea
+          age: 2, // era
         },
         {
           name: 'Nicholas',
-          sex: 'male',
-          age: 2,
+          sex: 'male', // macho
+          age: 2, // era
         },
       ],
     },
     {
-      id: ottersId,
+      id: ottersId, // objeto otters (lontras) tem um Array com quatro objetos especificando nome, sexo e era
       name: 'otters',
       popularity: 4,
       location: 'SE',
@@ -122,28 +122,28 @@ module.exports = {
       residents: [
         {
           name: 'Neville',
-          sex: 'male',
-          age: 9,
+          sex: 'male', // macho
+          age: 9, // era
         },
         {
           name: 'Lloyd',
-          sex: 'male',
-          age: 8,
+          sex: 'male', // macho
+          age: 8, // era
         },
         {
           name: 'Mercedes',
-          sex: 'female',
-          age: 9,
+          sex: 'female', // femea
+          age: 9, // era
         },
         {
           name: 'Margherita',
-          sex: 'female',
-          age: 10,
+          sex: 'female', // femea
+          age: 10, // era
         },
       ],
     },
     {
-      id: frogsId,
+      id: frogsId, // objeto frogs (rãs) tem um Array com dois objetos especificando nome, sexo e era
       name: 'frogs',
       popularity: 2,
       location: 'SW',
@@ -151,18 +151,18 @@ module.exports = {
       residents: [
         {
           name: 'Cathey',
-          sex: 'female',
-          age: 3,
+          sex: 'female', // femea
+          age: 3, // era
         },
         {
           name: 'Annice',
-          sex: 'female',
-          age: 2,
+          sex: 'female', // femea
+          age: 2, // era
         },
       ],
     },
     {
-      id: snakesId,
+      id: snakesId, // objeto snakes (cobra) tem um Array com dois objetos especificando nome, sexo e era
       name: 'snakes',
       popularity: 3,
       location: 'SW',
@@ -170,18 +170,18 @@ module.exports = {
       residents: [
         {
           name: 'Paulette',
-          sex: 'female',
-          age: 5,
+          sex: 'female', // femea
+          age: 5, // era
         },
         {
           name: 'Bill',
-          sex: 'male',
-          age: 6,
+          sex: 'male', // macho
+          age: 6, // era
         },
       ],
     },
     {
-      id: elephantsId,
+      id: elephantsId, // objeto elephants (elefantes) tem um Array com quatro objetos especificando nome, sexo e era
       name: 'elephants',
       popularity: 5,
       location: 'NW',
@@ -189,28 +189,28 @@ module.exports = {
       residents: [
         {
           name: 'Ilana',
-          sex: 'female',
-          age: 11,
+          sex: 'female', // femea
+          age: 11, // era
         },
         {
           name: 'Orval',
-          sex: 'male',
-          age: 15,
+          sex: 'male', // macho
+          age: 15, // era
         },
         {
           name: 'Bea',
-          sex: 'female',
-          age: 12,
+          sex: 'female', // fêmea
+          age: 12, // era
         },
         {
           name: 'Jefferson',
-          sex: 'male',
-          age: 4,
+          sex: 'male', // macho
+          age: 4, // era
         },
       ],
     },
     {
-      id: '01422318-ca2d-46b8-b66c-3e9e188244ed',
+      id: '01422318-ca2d-46b8-b66c-3e9e188244ed', // objeto giraffes tem um Array com seis objetos especificando nome, sexo e era
       name: 'giraffes',
       popularity: 4,
       location: 'NE',
@@ -218,112 +218,112 @@ module.exports = {
       residents: [
         {
           name: 'Gracia',
-          sex: 'female',
-          age: 11,
+          sex: 'female', // femea
+          age: 11, // era
         },
         {
           name: 'Antone',
-          sex: 'male',
-          age: 9,
+          sex: 'male', // macho
+          age: 9, // era
         },
         {
           name: 'Vicky',
-          sex: 'female',
-          age: 12,
+          sex: 'female', // femea
+          age: 12, // era
         },
         {
           name: 'Clay',
-          sex: 'male',
-          age: 4,
+          sex: 'male', // macho
+          age: 4, // era
         },
         {
           name: 'Arron',
-          sex: 'male',
-          age: 7,
+          sex: 'male', // macho
+          age: 7, // era
         },
         {
           name: 'Bernard',
-          sex: 'male',
-          age: 6,
+          sex: 'male', // macho
+          age: 6, // era
         },
       ],
     },
   ],
-  employees: [
+  employees: [ // objeto funcionarios temos um Array com oito objeto especificando primeiro nome, ultimo nome, um array com nomes gerentes
     {
       id: 'c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1',
       firstName: 'Nigel',
       lastName: 'Nelson',
-      managers: [burlId, olaId],
-      responsibleFor: [lionId, tigersId],
+      managers: [burlId, olaId], // gerenteID
+      responsibleFor: [lionId, tigersId], // e as respectivas responsabilidades do gerente
     },
     {
       id: burlId,
       firstName: 'Burl',
       lastName: 'Bethea',
-      managers: [stephanieId],
+      managers: [stephanieId], // gerernteID
       responsibleFor: [
         lionId,
         tigersId,
         bearsId,
-        'ef3778eb-2844-4c7c-b66c-f432073e1c6b'],
+        'ef3778eb-2844-4c7c-b66c-f432073e1c6b'], // e as respectivas responsabilidades do gerente
     },
     {
       id: olaId,
       firstName: 'Ola',
       lastName: 'Orloff',
-      managers: [stephanieId],
+      managers: [stephanieId], // gerenteID
       responsibleFor: [
         ottersId,
         frogsId,
         snakesId,
         elephantsId,
-      ],
+      ], // e as respectivas responsabilidades do gerente
     },
     {
       id: '56d43ba3-a5a7-40f6-8dd7-cbb05082383f',
       firstName: 'Wilburn',
       lastName: 'Wishart',
-      managers: [burlId, olaId],
-      responsibleFor: [snakesId, elephantsId],
+      managers: [burlId, olaId], // gereteID
+      responsibleFor: [snakesId, elephantsId], // e as respectivas responsabilidades do gerente
     },
     {
       id: stephanieId,
       firstName: 'Stephanie',
       lastName: 'Strauss',
-      managers: [],
+      managers: [], // gerenteID
       responsibleFor: [
         ottersId,
         '01422318-ca2d-46b8-b66c-3e9e188244ed',
-      ],
+      ], // e as respectivas responsabilidades do gerente
     },
     {
       id: '4b40a139-d4dc-4f09-822d-ec25e819a5ad',
       firstName: 'Sharonda',
       lastName: 'Spry',
-      managers: [burlId, olaId],
-      responsibleFor: [ottersId, frogsId],
+      managers: [burlId, olaId], // gerenteID
+      responsibleFor: [ottersId, frogsId], // e as respectivas responsabilidades do gerente
     },
     {
       id: 'c1f50212-35a6-4ecd-8223-f835538526c2',
       firstName: 'Ardith',
       lastName: 'Azevado',
-      managers: ['b0dc644a-5335-489b-8a2c-4e086c7819a2'],
+      managers: ['b0dc644a-5335-489b-8a2c-4e086c7819a2'], // geretesID
       responsibleFor: [
         tigersId,
         bearsId,
-      ],
+      ], // e as respectivas responsabilidades do gerente
     },
     {
       id: 'b0dc644a-5335-489b-8a2c-4e086c7819a2',
       firstName: 'Emery',
       lastName: 'Elser',
-      managers: [stephanieId],
+      managers: [stephanieId], // gereteID
       responsibleFor: [
         lionId,
         bearsId,
         elephantsId,
-      ],
+      ], // e as respectivas responsabilidades do gerente
     },
   ],
   hours: {
