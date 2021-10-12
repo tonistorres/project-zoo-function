@@ -2,7 +2,8 @@ const data = require('../data/zoo_data');
 
 // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/every
 // O método every() testa se todos os elementos do array passam pelo teste implementado pela função fornecida.
-// arr.every(callback[, thisArgs
+// arr.every(callback[, thisArgs])
+// Contribuição: Gabriel Pinheiro
 
 const { species } = data;
 
