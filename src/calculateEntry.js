@@ -72,7 +72,7 @@ function calculateEntry(entrantsEntry) {
   // entrantes no zoologico bem como contar por faixa etária definida pelo projeto
   // quantas pessoas da respectiva faixa etárias são entrantes no zoologico. FUNÇÃO AUXILIAR:countEntrants(entrantsCount)
   // Saída de resultFilter: { child: 3, adult: 2, senior: 1 } um objeto chave valor
-  // MENTORIA:[Trybe] Gian Fritsche - que me pediu para simplificar o problema não fazendo a soma abaixo de forma 
+  // MENTORIA:[Trybe] Gian Fritsche - que me pediu para simplificar o problema não fazendo a soma abaixo de forma
   // dinâmica mais sim estática, pois, não era requesito do problema fazê-lo de forma dinâmica
   const resultFilter = countEntrants(entrantsEntry);
   const result = (resultFilter.adult * prices.adult)
