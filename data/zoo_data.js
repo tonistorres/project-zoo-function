@@ -9,16 +9,16 @@ const tigersId = 'e8481c1d-42ea-4610-8e11-1752cfc05a46';
 const stephanieId = '9e7d4524-363c-416a-8759-8aa7e50c0992';
 const olaId = 'fdb2543b-5662-46a7-badc-93d960fdc0a8';
 const burlId = '0e7b460e-acf4-4e17-bcb3-ee472265db83';
-
+// montar um objeto na saida
 module.exports = {
   species: [ // array de objetos
     { // objeto lions temos um Array com quatro objeto especificando nome, sexo e era
       id: lionId,
-      name: 'lions',
+      name: 'lions', // pegar o name
       popularity: 4,
       location: 'NE',
       availability: ['Tuesday', 'Thursday', 'Saturday', 'Sunday'], // dias disponívies para visitaçoes
-      residents: [
+      residents: [ // lenght -- quantidade
         {
           name: 'Zena',
           sex: 'female', // fêmea
