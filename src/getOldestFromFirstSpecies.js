@@ -48,7 +48,7 @@ function findOldest(idAnimal) {
 //
 
 function getOldestFromFirstSpecies(idEmployee) {
-  // Utilizar um object entries porque o exercício pede um retorno como array de um objejto 
+  // Utilizar um object entries porque o exercício pede um retorno como array de um objejto
   const result = Object.values(findOldest(filterEmployees(idEmployee)));
   return result;
 }
@@ -57,7 +57,7 @@ function getOldestFromFirstSpecies(idEmployee) {
 // Passando ID do Funcionario: 'c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'
 // Retorno: O primeiro animal que faz parte dos cuidados do gerente(funcionario)
 // *******************************************************************************
-console.log(filterEmployees('c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'));
+// console.log(filterEmployees('c5b83cb3-a451-49e2-ac45-ff3f54fbe7e1'));
 
 // eslint-disable-next-line sonarjs/no-use-of-empty-return-value
 

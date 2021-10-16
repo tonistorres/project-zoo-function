@@ -33,14 +33,11 @@ function seachIncludeNames(obj) {
   // const objeto = {};
 
   const resultNEFilter = species
-    .filter((specie) => specie.location === 'NE').map((item) => item);
+    .filter((specie) => specie.location === 'NE').map((item) => item).map((item) => item.residents);
 
-  // resultNEFilter.map((item) => item.residents);
-
-  // for (let i = 0; i < resultNEFilter.length; i += 1) {
-  //   console.log(resultNEFilter[i].residents);
-
-  // }
+  for (let i = 0; i < resultNEFilter.length; i += 1) {
+    console.log(resultNEFilter[i].residents);
+  }
   // console.log(Object.keys(resultNEFilter));
 
   // resultNEFilter.filter((item) => item).filter((item) => item).filter((item)=>itemI);
@@ -49,7 +46,7 @@ function seachIncludeNames(obj) {
 
 function getAnimalMap(options) {
   // console.log(options);
-  if (!options || Object.keys(options).includes('sex')) return seachMappíng();
+  if (!options || options.sex) return seachMappíng();
 }
 // Bem o Segundo testa que eu posso receber do meu usuário ou de alguma api
 // o seguinte parâmetro que é um objeto com a seguinte estrutura {sex:'female'} e devo
@@ -65,11 +62,13 @@ function getAnimalMap(options) {
 // };
 
 console.log(seachIncludeNames({
-  includeNames: true
+  includeNames: true,
 }));
 // eslint-disable-next-line sonarjs/no-use-of-empty-return-value
 // eslint-disable-next-line no-undef
-// console.log(getAnimalMap({ sex: 'female' }));
+// console.log(getAnimalMap({
+//   sex: 'female',
+// }));
 // console.log(getAnimalMap({ includeNames:s false, sex: 'female' }));
 // console.log(getAnimalMap());
 
