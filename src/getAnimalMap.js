@@ -29,7 +29,6 @@ function seachMappíng() {
 // }
 
 function seachIncludeNames(obj) {
-
   // const objeto = {};
 
   const resultNEFilter = species
