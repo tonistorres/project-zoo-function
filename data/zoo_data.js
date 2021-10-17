@@ -326,7 +326,7 @@ module.exports = {
       ], // e as respectivas responsabilidades do gerente
     },
   ],
-  hours: {
+  hours: { // calendário de horários
     Tuesday: { open: 8, close: 6 },
     Wednesday: { open: 8, close: 6 },
     Thursday: { open: 10, close: 8 },

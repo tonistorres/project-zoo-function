@@ -1,6 +1,9 @@
 const getEmployeesCoverage = require('../src/getEmployeesCoverage');
 
 describe('10 - Crie uma associação de informações para cobertura das pessoas funcionárias', () => {
+  
+  
+  // Resolvido
   it('se o objeto de opções tiver a propriedade name retorna somente a pessoa correspondente', () => {
     const actual = getEmployeesCoverage({ name: 'Sharonda' });
 
@@ -14,6 +17,7 @@ describe('10 - Crie uma associação de informações para cobertura das pessoas
     expect(actual).toEqual(expected);
   });
 
+  // Resolvido 
   it('a propriedade name do objeto de opções também funciona usando o segundo nome', () => {
     const actual = getEmployeesCoverage({ name: 'Spry' });
 

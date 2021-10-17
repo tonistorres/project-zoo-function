@@ -1,13 +1,9 @@
 const data = require('../data/zoo_data');
 
+const { species, hours } = data;
+
 function getSchedule(scheduleTarget) {
-  // seu código aqui
+  // codigo aqui  
 }
-
-// ************************************* **************************/
-// Questão 08: Função getSchedule() - Pegar Conograma de visitação
-// ************************************************************* */
-
-console.log(getSchedule());
-
+// console.log(exhibition('Tuesday'));
 module.exports = getSchedule;
