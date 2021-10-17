@@ -4,12 +4,11 @@ const data = require('../data/zoo_data');
 // Link:https://github.com/tryber/sd-016-b-project-zoo-functions/pull/103/commits/7ca7ba22248d11359c0001c24c1439ad0014326a
 // ***************************** */
 const {
-  species,
   employees,
 } = data;
 // **************************************************** /
-// Solução: Ao ser chamada sem argumentos, 
-// deverá retornar um array com a cobertura 
+// Solução: Ao ser chamada sem argumentos,
+// deverá retornar um array com a cobertura
 // de todas as pessoas funcionárias:
 // ************************************************** */
 //  MONTAR A ESTRUTURA DO OBJETO DENTRO DO LAÇO MAP
